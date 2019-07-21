@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="src/main.css" />
+  </head>
+  <body>
+    <div class="app">
+      <div class="control-panel">
+        <p>Elevator control</p>
+        <button id="move-up">Move Up</button>
+        <button id="move-down">Move Down</button>
+        <div>
+          <button id="stop-and-open">Stop And Open Doors</button>
+          <span id="door-state"></span>
+        </div>
+        <div><span>Current floor:</span><span id="current-floor"></span></div>
+        <div><span>Current direction:</span><span id="direction"></span></div>
+        <div><span>Queue:</span><span id="queue"></span></div>
+        <div><span>Next floor:</span><span id="next-floor"></span></div>
+      </div>
+      <ul class="elevator">
+        <li class="floor">
+          <div class="cabin">10</div>
+          <div class="floor-buttons">
+            <div class="floor-button">up</div>
+            <div class="floor-button">down</div>
+          </div>
+        </li>
+        <li class="floor">
+          <div class="cabin door-closed">9</div>
+          <div class="floor-buttons">
+            <div class="floor-button">up</div>
+            <div class="floor-button">down</div>
+          </div>
+        </li>
+        <li class="floor">
+          <div class="cabin">8</div>
+          <div class="floor-buttons">
+            <div class="floor-button">up</div>
+            <div class="floor-button">down</div>
+          </div>
+        </li>
+        <li class="floor">
+          <div class="cabin">7</div>
+          <div class="floor-buttons">
+            <div class="floor-button">up</div>
+            <div class="floor-button">down</div>
+          </div>
+        </li>
+        <li class="floor">
+          <div class="cabin">6</div>
+          <div class="floor-buttons">
+            <div class="floor-button">up</div>
+            <div class="floor-button">down</div>
+          </div>
+        </li>
+        <li class="floor">
+          <div class="cabin">5</div>
+          <div class="floor-buttons">
+            <div class="floor-button">up</div>
+            <div class="floor-button">down</div>
+          </div>
+        </li>
+        <li class="floor">
+          <div class="cabin">4</div>
+          <div class="floor-buttons">
+            <div class="floor-button">up</div>
+            <div class="floor-button">down</div>
+          </div>
+        </li>
+        <li class="floor">
+          <div class="cabin">3</div>
+          <div class="floor-buttons">
+            <div class="floor-button">up</div>
+            <div class="floor-button">down</div>
+          </div>
+        </li>
+        <li class="floor">
+          <div class="cabin">2</div>
+          <div class="floor-buttons">
+            <div class="floor-button">up</div>
+            <div class="floor-button">down</div>
+          </div>
+        </li>
+        <li class="floor">
+          <div class="cabin">1</div>
+          <div class="floor-buttons">
+            <div class="floor-button">up</div>
+            <div class="floor-button">down</div>
+          </div>
+        </li>
+      </ul>
+      <ul class="cabin-buttons">
+        <li class="num-button">10</li>
+        <li class="num-button">9</li>
+        <li class="num-button">8</li>
+        <li class="num-button">7</li>
+        <li class="num-button">6</li>
+        <li class="num-button">5</li>
+        <li class="num-button">4</li>
+        <li class="num-button">3</li>
+        <li class="num-button">2</li>
+        <li class="num-button">1</li>
+      </ul>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
